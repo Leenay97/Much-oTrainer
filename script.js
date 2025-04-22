@@ -225,11 +225,13 @@ function Excercise() {
                 rightAnsw = [`There won't be any ${pluralNoun}`, `There won't be any ${bothPlural}`,
                 `There isn't going to be any ${pluralNoun}`, `There aren't going to be any ${bothPlural}`,
                 `There will be no ${pluralNoun}`, `There will be no ${bothPlural}`,
+                `There'll be no ${pluralNoun}`, `There'll be no ${bothPlural}`,
                 `There is going to be no ${pluralNoun}`, `There are going to be no ${bothPlural}`,
-                `There will not be any ${pluralNoun}`, `There will not be any ${bothPlural}`];
+                `There will not be any ${pluralNoun}`, `There will not be any ${bothPlural}`,
+                `There'll not be any ${pluralNoun}`, `There'll not be any ${bothPlural}`];
             } else {
                 rightAnsw = [`There won't be any ${pluralNoun}`, `There ${isAre}n't going to be any ${pluralNoun}`,
-                `There will be no ${pluralNoun}`, `There ${isAre} going to be no ${pluralNoun}`,
+                `There will be no ${pluralNoun}`, `There ${isAre} going to be no ${pluralNoun}`, `There'll be no ${pluralNoun}`,
                 `There will not be any ${pluralNoun}`];
             }
             break;
