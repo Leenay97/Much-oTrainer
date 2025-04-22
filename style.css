@@ -1,11 +1,20 @@
 /* roboto-regular - cyrillic_latin */
-@font-face {
+/* @font-face {
     font-display: swap;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     src: url('roboto-v47-cyrillic_latin-regular.woff2') format('woff2');
 }
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  } */
 
 * {
     padding: 0;
