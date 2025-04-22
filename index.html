@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kosugi&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Tense Trainer</title>
+</head>
+
+<body>
+    <main>
+        <div class="rules-button">?</div>
+        <div class="rules hidden"><span style="font-weight: bold;">Если хотите, чтобы всё проверялось
+                автоматически:</span><br><br>
+            1. Пишите без точек и вопросов<br>
+            2. Автопроверка работает только с компьютера (ответ станет зеленым)<br>
+            3. Проверка работает только с предолжениями, составленными по схеме из учебника.<br>
+            4. Предложения с there is пишите без места (on the table писать не нужно).
+            <br>
+            Можно работать устно, правильный ответ будет появляться после нажатия на кнопку Next<br><br>
+            <span style="font-weight: bold;">Have fun!</span>
+
+        </div>
+        <div class="example">Click to start!</div>
+        <div class="condition"></div>
+        <input class="input blocked">
+        <div class="last-answer">
+            <div class="label">Last answer</div>
+        </div>
+        <div class="next-button " type="submit">Start!</div>
+        <div class="hide-ul">Show Answers</div>
+        <ul class="answer-list hidden">
+            <li class="answer uP a1">
+                <div class="right"></div>
+                <div class="your"></div>
+                <div class="question">?</div>
+            </li>
+            <li class="answer uN a2">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer uQ a3">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer nowP a4">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer nowN a5">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer nowQ a6">
+                <div class="right"></div>
+                <div class="your"></div>
+                <div class="question">?</div>
+            </li>
+            <li class="answer soonP a7">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer soonN a8">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer soonQ a9">
+                <div class="right"></div>
+                <div class="your"></div>
+                <div class="question">?</div>
+            </li>
+            <li class="answer goingP a10">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer goingN a11">
+                <div class="right"></div>
+                <div class="your"></div>
+            </li>
+            <li class="answer goingQ a12">
+                <div class="right"></div>
+                <div class="your"></div>
+                <div class="question">?</div>
+            </li>
+        </ul>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
