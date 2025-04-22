@@ -111,14 +111,14 @@ function Excercise() {
         console.log(pluralNoun)
         muchMany = 'many';
         littleFew = 'few';
-        wasWere = 'were';
+        wasWere = 'Were';
         isAre = 'are';
 
     } else if (isCountable > 3 && isCountable <= 7) {
         pluralNoun = chosenWord;
         muchMany = 'much';
         littleFew = 'little'
-        wasWere = 'was';
+        wasWere = 'Was';
         isAre = 'is';
 
     } else if (isCountable > 7) {
@@ -126,7 +126,7 @@ function Excercise() {
         bothPlural = chosenWord.split('/')[1]
         muchMany = 'much';
         littleFew = 'little'
-        wasWere = 'was';
+        wasWere = 'Was';
         isAre = 'is';
     }
 
